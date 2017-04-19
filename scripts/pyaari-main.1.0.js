@@ -1,4 +1,4 @@
-﻿//;(function($){
+//;(function($){
 	var ReadMore = {
 		init: function(opts) {
 			$('.read-more').each(function () {
@@ -21,11 +21,11 @@
 		},
 		_slideDown: function(e,o) {
 			$('p, h3', o).slideDown();
-			e.text('Read less -').addClass('on');
+			e.text('lire moins -').addClass('on');
 		},
 		_slideUp: function(e,o) {
 			$('p, h3', o).slideUp();
-			e.text('Read more +').removeClass('on');
+			e.text('lire plus +').removeClass('on');
 		},
 		slideDown: function (e) {
 		    var _o = $(e).parent();
